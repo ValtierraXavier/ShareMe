@@ -1,0 +1,41 @@
+.postCardContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;    
+    top: 5.5rem;
+    height: 50vh;
+    width: 33vw;
+    margin-left: 35%;
+}
+#imgAndTitleContainer{
+    background-color: rgba(100,100,100,.8);
+    border-radius: 5px;
+}
+
+.cardTitle{
+    order: 1;
+    display:flex;
+    position: relative;
+    z-index: 500;
+    width: fit-content;
+    background-color: rgba(100,100,100,.8);
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    top: -15px;
+}
+
+#postImg{
+    order: 1;
+    position: relative;
+    width: 100%;
+    top: -78px;
+}
+
+#captionContainer{
+    order: 2;
+    display: flex;
+    position: relative;
+    height: 4.3rem;
+    top: -20%;
+    overflow-y: auto;
+}

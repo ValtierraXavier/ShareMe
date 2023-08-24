@@ -1,0 +1,44 @@
+.postModal{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.imgAndDeets{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.captionAndLikesContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    align-items:center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.postModalImg{
+    width: 45vw;
+}
+
+.commentsContainer{
+    width: 45vw;
+    /* border: solid black 1px; */
+}
+
+.banner{
+    background-color: rgba(100,100,100,.8)
+}
+
+.commentsTextArea{
+    width: 90%;
+    margin: 0 5%;
+    height: 3rem;
+    padding: 5px;
+    resize: none;
+    overflow-y: auto;
+}
+.commentsContainerMap{
+    border: solid black 1px;
+}
